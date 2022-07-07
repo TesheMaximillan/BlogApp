@@ -22,6 +22,40 @@
 * Foreign keys should be included.
 * All columns that are foreign keys should have a corresponding index.
 
+## Milestone II:
+***
+> Setup models.
+
+### Basic Requirements:
+***
+* Create a `User` model.
+* Create a `Post` model.
+* Create a `Comment` model.
+* Create a `Tag` model.
+* Setup associations between models.
+* Create custom methods on models.
+
+  * `User#most_recent_three_posts`
+  * `Post#update_post_counter`
+  * `Post#most_recent_five_comments`
+  * `Like#update_like_counter`
+
+## Milestone III:
+***
+> Add Validation for models and create specs for models.
+
+### Basic Requirements:
+***
+* __For the User model:__
+  * Name must not be blank.
+  * PostsCounter must be an integer greater than or equal to zero.
+* __For the Post model:__
+  * Title must not be blank.
+  * Title must not exceed 250 characters.
+  * CommentsCounter must be an integer greater than or equal to zero.
+  * LikesCounter must be an integer greater than or equal to zero.
+* __Add unit specs for all of your models' methods and validations.__
+
 ## Authors
 
 👤 **Teshome Kurabachew**
