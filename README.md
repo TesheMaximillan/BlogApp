@@ -56,6 +56,17 @@
   * LikesCounter must be an integer greater than or equal to zero.
 * __Add unit specs for all of your models' methods and validations.__
 
+## Milestone IV:
+***
+> create all controllers and views for the Blog app. Add simple placeholders for views with plain HTML.
+
+### Basic Requirements:
+***
+* Create `user_posts`, `user_post`, `users` and `user` router
+* Create a `UsersController` with action method for `index` and `show`
+* Create a `PostsController` with action method for `index` and `show`
+* Create a view files for `users` and `posts` with a placeholder for each.
+
 ## Authors
 
 👤 **Teshome Kurabachew**
