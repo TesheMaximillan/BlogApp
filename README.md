@@ -67,6 +67,19 @@
 * Create a `PostsController` with action method for `index` and `show`
 * Create a view files for `users` and `posts` with a placeholder for each.
 
+## Milestone V:
+***
+> Set up tests on the `UsersController` and `PostsController`.
+
+### Basic Requirements:
+***
+* Add RSpec as a gem to the project.
+* Create a Request Spec for the `UsersController` and `PostsController`.
+* The following test case are checked:
+  * if response was successful, 
+  * if a correct template was rendered.
+  * if the response body includes correct placeholder text.
+
 ## Authors
 
 👤 **Teshome Kurabachew**
