@@ -22,7 +22,7 @@
   </div>
 
   <div class="comments">
-   <% post.comments.each do |comment| %>
+   <% post.most_recent_five_comments.each do |comment| %>
       <div class="comments__list">
         <div class="comments__list--details">
           <p><%=post.user.name %>: <%= comment.text %></p>
