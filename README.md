@@ -80,6 +80,17 @@
   * if a correct template was rendered.
   * if the response body includes correct placeholder text.
 
+## Milestone VI:
+***
+> Add Views associated with the Models and Controllers already created in the Blog App
+
+### Basic Requirements:
+***
+* Display all users in the `/users` page.
+* Display a single user in the `/users/:id` page.
+* Display all posts in the `/users/:user_id/posts` page.
+* Display a single post in the `/users/:user_id/posts/:id` page.
+
 ## Authors
 
 👤 **Teshome Kurabachew**
