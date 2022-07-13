@@ -1,6 +1,7 @@
-.bio, .posts {
+.bio,
+.posts {
   border: 1px solid var(--grey-border);
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: var(--white);
   text-align: justify;
 
@@ -24,7 +25,7 @@
   flex-direction: column;
   margin-top: 1rem;
   border: 1px solid var(--grey-border);
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: var(--white);
 }
 
