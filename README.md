@@ -91,6 +91,19 @@
 * Display all posts in the `/users/:user_id/posts` page.
 * Display a single post in the `/users/:user_id/posts/:id` page.
 
+## Milestone VII:
+***
+> Add forms to blog app
+
+### Basic Requirements:
+***
+* Create a method called `current_user` in your ApplicationController.
+  * It will return the first user from the database.
+* Create forms to perform the following functions:
+  * Creates a Post on behalf of the `current_user`.
+  * Create a comment on behalf of the `current_user`.
+* Allow Users to add likes to Posts.
+
 ## Authors
 
 👤 **Teshome Kurabachew**
