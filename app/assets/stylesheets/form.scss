@@ -1,8 +1,4 @@
-@mixin label {
-  display: none;
-}
-
-@mixin text {
+.common-text {
   border: none;
   width: 100%;
   border-bottom: 1px solid #000;
@@ -33,12 +29,25 @@
     display: flex;
 
     &--label {
-      @include label;
+      display: none;
     }
 
     &--title {
-      @include text;
+      border: none;
+      width: 100%;
+      border-bottom: 1px solid #000;
+      padding: 0.2rem 1rem;
+      font-size: 1.6rem;
+      font-family: inherit;
       height: 4rem;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:active {
+        border-bottom: 1px solid var(--color-primary);
+      }
     }
   }
 
@@ -46,20 +55,33 @@
     display: flex;
 
     &--label {
-      @include label;
+      display: none;
     }
 
     &--text {
-      @include text;
+      border: none;
+      width: 100%;
+      border-bottom: 1px solid #000;
+      padding: 0.2rem 1rem;
+      font-size: 1.6rem;
+      font-family: inherit;
       margin: 1rem 0;
       align-self: flex-end;
       height: 10rem;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:active {
+        border-bottom: 1px solid var(--color-primary);
+      }
     }
   }
 }
 
 .btn-like {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #show {
