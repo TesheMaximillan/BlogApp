@@ -37,6 +37,7 @@ body {
 }
 
 .container {
+  position: relative;
   background-color: var(--light-grey);
   max-width: 120rem;
   padding: 2rem;
