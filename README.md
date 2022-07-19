@@ -112,6 +112,12 @@
 ***
 * N+1 problem is solved when fetching all posts and their comments for a user
 
+__Integration Tests:__
+
+* User Index page
+* User Show page
+* User Post Index page
+* Post Show page
 ## Authors
 
 👤 **Teshome Kurabachew**
