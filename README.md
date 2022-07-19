@@ -104,6 +104,14 @@
   * Create a comment on behalf of the `current_user`.
 * Allow Users to add likes to Posts.
 
+## Milestone VIII:
+***
+> Create integration tests for all of the views used in the project.
+
+### Basic Requirements:
+***
+* N+1 problem is solved when fetching all posts and their comments for a user
+
 ## Authors
 
 👤 **Teshome Kurabachew**
