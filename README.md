@@ -112,6 +112,10 @@
 - Twitter: [@twitterhandle](https://twitter.com/TesheKura)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/teshome-kurabachew-aa8067180/)
 
+👤 **Selase**
+
+- GitHub: [@dewslyse](https://github.com/dewslyse)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
