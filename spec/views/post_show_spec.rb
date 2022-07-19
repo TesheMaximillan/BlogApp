@@ -31,12 +31,12 @@ RSpec.describe 'Post show page', type: :feature do
     expect(page).to have_content('How to be a dev in 2020')
   end
 
-  # it 'displays the name of each commentor' do
-  #   expect(page).to have_content(@comment.user.name)
-  # end
+  it 'displays the name of each commentor' do
+    expect(page).to have_content(@comment.user.name)
+  end
 
-  # it 'displays comments from all commentors' do
-  #   expect(page).to have_content('This is comment 1')
-  #   expect(page).to have_content('This is comment 2')
-  # end
+  it 'displays comments from all commentors' do
+    expect(page).to have_content('This is comment 1')
+    expect(page).to have_content('This is comment 2')
+  end
 end
