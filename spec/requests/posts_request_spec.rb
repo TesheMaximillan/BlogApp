@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'Posts', type: :request do
+RSpec.describe 'Posts', type: :request do
   describe 'GET /users/:user_id/posts' do
     it 'check the status is successful' do
       get user_posts_path(1)
