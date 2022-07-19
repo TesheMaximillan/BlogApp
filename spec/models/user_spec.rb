@@ -1,8 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  subject { User.new(name: 'John', photo: 'https://example.com/photo.jpg', bio: 'Lorem ipsum dolor sit amet') }
-
+  subject { User.new(name: 'John doe', photo: 'https://example.com/photo.jpg', bio: 'Lorem ipsum dolor sit amet') }
   before { subject.save }
 
   it 'name should be present' do

@@ -2,10 +2,35 @@
 
 # Blog App: Creating a data model
 
-> In this project, 
+## Setup
+
+To get a local copy up and running follow this simple step:
+
+- Clone repository to your local machine: 
+`git@github.com:TesheMaximillan/BlogApp.git`
+This will create a directory in the name of the project folder.
+
+- Navigate to project folder using `cd BlogApp`
+
+## Install
+
+- Run `bundle install` to install all gems for the project.
+
+## Usage
+
+- Run `rails s` to start the server
+- Open `http://127.0.0.1:3000/` in your browser to use the app
+
+## Tests
+- Run `rspec` to run the tests
+
 ***
+***
+## In this project, 
+
 ## Milestone I:
-***
+
+
 > User Migration file to build schema.
 
 [ERD Diagram](https://github.com/microverseinc/curriculum-rails/blob/main/blog-app/images/blog_app_erd.png)
@@ -104,6 +129,21 @@
   * Create a comment on behalf of the `current_user`.
 * Allow Users to add likes to Posts.
 
+## Milestone VIII:
+***
+> Create integration tests for all of the views used in the project.
+
+### Basic Requirements:
+***
+* N+1 problem is solved when fetching all posts and their comments for a user
+
+__Integration Tests:__
+
+* User Index page
+* User Show page
+* User Post Index page
+* Post Show page
+
 ## Authors
 
 👤 **Teshome Kurabachew**
@@ -111,6 +151,10 @@
 - GitHub: [@githubhandle](https://github.com/TesheMaximillan)
 - Twitter: [@twitterhandle](https://twitter.com/TesheKura)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/teshome-kurabachew-aa8067180/)
+
+👤 **Selase**
+
+- GitHub: [@dewslyse](https://github.com/dewslyse)
 
 ## 🤝 Contributing
 
