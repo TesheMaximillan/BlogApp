@@ -12,7 +12,7 @@ RSpec.describe 'Post show page', type: :feature do
   end
 
   it 'displays the post\'s title' do
-    expect(page).to have_content('Dev in 2020')
+    expect(page).to have_content('How to be a dev in 2020')
   end
 
   it 'displays the author\'s username' do
@@ -32,7 +32,7 @@ RSpec.describe 'Post show page', type: :feature do
   end
 
   it 'displays the name of each commentor' do
-    expect(page).to have_content(@comment.user.name)
+    expect(page).to have_content(@comment1.user.name)
   end
 
   it 'displays comments from all commentors' do
