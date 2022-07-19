@@ -18,4 +18,13 @@ RSpec.describe 'Post show page', type: :feature do
   it 'displays the author\'s username' do
     expect(page).to have_content(@user.name)
   end
+
+  it 'displays how many comments the post has' do
+    expect(page).to have_content(@post.comments_counter)
+  end
+
+  it 'displays how many likes the post has' do
+    expect(page).to have_content(@post.likes_counter)
+  end
+
 end
