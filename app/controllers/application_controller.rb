@@ -10,6 +10,14 @@ class ApplicationController < ActionController::Base
 
   protected
 
+  def after_sign_in_path_for(resource)
+    if resource.is_a?(User)
+      user_path(resource)
+    else
+      super
+    end
+  end
+
   def configure_devise_params
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[
                                         name
