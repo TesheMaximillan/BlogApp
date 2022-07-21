@@ -8,6 +8,11 @@
   background-color: rgb(109, 109, 230);
   border-radius: 10px;
   color: white;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
 }
 
 .field {
@@ -15,7 +20,8 @@
 }
 
 .field-email-input,
-.field-password-input {
+.field-password-input,
+.field-name-input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
