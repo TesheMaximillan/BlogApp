@@ -144,6 +144,21 @@ __Integration Tests:__
 * User Post Index page
 * Post Show page
 
+## Milestone IX:
+***
+> Add devise gem to the project. and apply it for registration and login.
+
+### Basic Requirements:
+***
+* Remove current_user method in ApplicationController.
+* Install and setup Devise gem.
+  * Register a new user.
+  * User Login in a combination of email and password.
+  * Hashed password is stored in the database.
+  * Ask for a confirmation email.
+  * Allow to reset password.
+* Modify the views in devise for registration and login.
+
 ## Authors
 
 👤 **Teshome Kurabachew**
